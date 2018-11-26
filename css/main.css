@@ -17,7 +17,7 @@ html {
   box-sizing: inherit;
 }
 
-ul {
+.cards {
   list-style-type: none;
   padding-left: 0;
   text-align: center;
@@ -43,6 +43,14 @@ ul {
 .card-body p {
   margin-top: 0;
   margin-bottom: 1em;
+}
+
+.card {
+  display: block;
+}
+
+.card-img img {
+  display: block;
 }
 
 @media only screen and (min-width: 25em) {
@@ -78,7 +86,7 @@ ul {
     display: block;
   }
 
-  li {
+  .card {
     display: inline-block;
     width: 32.3333%;
   }
@@ -100,7 +108,7 @@ ul {
     display: block;
   }
 
-  li {
+  .card {
     display: inline-block;
     width: 32.3333%;
   }
@@ -121,7 +129,7 @@ ul {
     display: block;
   }
 
-  li {
+  .card {
     display: inline-block;
     width: 32.3333%;
   }
